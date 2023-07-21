@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+section {
+    width: 100%;
+    background-color: #faf7f2;
+}
+
+.home-container {
+    width: 100%;
+    height: 1080px;
+    background-image: url('../images/mvp-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.home-image img {
+    padding: 10px 0px 10px 0px;
+}
+
+
+.home-opportunity p {
+    font-family: 'Satisfy', cursive;
+    color: #fdc913;
+    padding: 10px 0px 10px 0px;
+    font-size: 1.8rem;
+}
+
+.pizza-code p {
+    font-family: 'Barlow', sans-serif;
+    color: #fff;
+    padding: 10px 0px 20px 0px;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+}
+
+
+.main-container button {
+    padding: 10px;
+    width: 200px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    background-color: #fdc913;
+    color: #433d27;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.section-choices {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 1260px;
+    height: 112px;
+    background-color: #fff !important;
+    gap: 30px;
+
+}
+
+.choice {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 1260px;
+    height: 540px;
+    background-color: #faf7f2 !important;
+    gap: 30px;
+    padding: 80px 0px 0px 0px;
+}
+
+.position-absolute-card {
+    display: flex;
+    flex-direction: column;
+    width: 642px;
+    height: 540px;
+    background-image: url('../images/adv-aseets/kart-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0px 0px 20px;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.position-absolute-card h1 {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.position-absolute-card p {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+button.order-button-home {
+    width: 160px;
+    background-color: #fff;
+    color: #ce2829;
+    font-size: 0.8rem;
+}
+
+.two-column-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 540px;
+}
+
+.hackathlon-card {
+    display: flex;
+    flex-direction: column;
+    width: 642px;
+    height: 258px;
+    background-image: url('../images/adv-aseets/kart-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0px 0px 20px;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 20px 0px 0px 20px;
+
+}
+
+.hackathlon-card h1 {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.npm-burger {
+    display: flex;
+    flex-direction: column;
+    width: 642px;
+    height: 258px;
+    background-image: url('../images/adv-aseets/kart-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0px 0px 20px;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 20px 0px 0px 20px;
+}
+
+.npm-burger h1 {
+    color: #292929;
+    font-size: 1.8rem;
+}
+
+.npm-burger span {
+    color: #d80027;
+}
+
+.menus {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px 0px 80px 0px;
+}
+
+.menus p {
+    font-family: 'Satisfy', cursive;
+    color: #ce2829;
+    padding: 10px 0px 10px 0px;
+    font-size: 1.4rem;
+}
+
+.section-menus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 1294px;
+    height: 112px;
+    gap: 30px;
+}
+
+.flavor {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.flavor p {
+    font-family: 'Barlow', sans-serif;
+    color: #000000;
+    padding: 10px 0px 10px 0px;
+    font-size: 0.8rem;
+}
+
+.package-menus {
+    display: flex;
+    align-items: center;
+}
+
+.position-absolute-pizza {
+    width: 416px;
+    height: 446px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.position-absolute-pizza h1 {
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 0px 0px 0px 30px;
+}
+
+.ranks {
+    display: flex;
+    width: 416px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+}
+
+footer {
+    width: 100%;
+    background-color: #1a1a1a;
+}
+
+.footer-container {
+    display: flex;
+    width: 1334px;
+    height: 474px;
+    margin: auto;
+    justify-content: space-around;
+    color: #fff;
+    padding: 60px 0px 60px 0px;
+}
+
+.footer-first {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-first h1 {
+    line-height: 1.2;
+}
+
+.footer-second {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-second h1 {
+    padding: 50px 0px 50px 0px;
+    font-size: 1.3rem;
+}
+
+.list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.adress {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.mail {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.phone {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.footer-third {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-images {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.copyright {
+    display: flex;
+    width: 1152px;
+    height: 90px;
+    margin: auto;
+    justify-content: space-between;
+    color: #fff;
+    padding: 40px 0px 40px 0px;
+}
+
+
+
+@media only screen and (max-width:769px) {
+    header {
+        width: 100%;
+        min-height: 700px;
+        background-image: url('../images/mvp-banner.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+}
